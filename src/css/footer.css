@@ -9,18 +9,6 @@
     color: #fbfbfb;
 }
 
-@media only screen and (min-width: 768px) {
-    .page-footer {
-        padding: 40px 0 32px;
-    }
-}
-
-@media only screen and (min-width: 1280px) {
-    .page-footer {
-        padding: 50px 0 32px;
-    }
-}
-
 .footer-content {
     margin-bottom: 92px;
 }
@@ -62,7 +50,7 @@
     justify-content: center;
     font-weight: 500;
     font-size: 12px;
-    line-height: 1.33333;
+    line-height: 1.33;
     text-transform: uppercase;
     border: 1px solid rgba(251, 251, 251, 0.2);
     border-radius: 16px;
@@ -84,7 +72,7 @@
     justify-content: space-between;
     font-weight: 500;
     font-size: 12px;
-    line-height: 1.33333;
+    line-height: 1.33;
     margin-bottom: 48px;
     position: relative;
 }
@@ -136,5 +124,104 @@
 }
 
 @media only screen and (min-width: 768px) {
-    
+    .page-footer {
+        padding: 40px 0 32px;
+    }
+
+    .logo-phone-wrap {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        margin-bottom: 86px;
+    }
+
+    .footer-wrap {
+        padding: 40px 40px 28px;
+    }
+
+    .footer-content {
+        margin-bottom: 100px;
+    }
+
+    .footer-logo {
+        font-size: 20px;
+    }
+
+    .footer-soc-list {
+        margin: 0;
+        }
+
+    .footer-soc-link {
+        width: 36px;
+        height: 36px;
+    }
+
+    .footer-contact-wrap {
+        margin: 0;
+    }
+
+    .footer-contact-wrap {
+        width: 160px;
+        height: 48px;
+        font-size: 14px;
+        line-height: 1.29;
+    }
+
+    .footer-text {
+        font-size: 28px;
+        line-height: 1.14;
+        max-width: 524px;
+        margin: 0 auto;
+    }
+
+    .footer-nav-wrap {
+        font-size: 14px;
+        line-height: 1.29;
+        margin-bottom: 56px;
+    }
+
+    .footer-nav-wrap::after {
+        bottom: -28px;
+    }
+
+    .footer-nav-list {
+        max-width: none;
+        gap: 19px;
+    }
+
+        .footer-nav-item {
+            padding-bottom: 18px;
+        }
+
+    .footer-address-text {
+        max-width: 162px;
+    }
+
+    .copyright-wrap {
+        font-size: 14px;
+        line-height: 1.29;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .page-footer {
+        padding: 50px 0 32px;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-text {
+        margin: 0;
+    }
+
+    .logo-phone-wrap {
+        justify-content: space-between;
+    }
 }
