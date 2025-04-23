@@ -10,7 +10,7 @@
   refs.modal.addEventListener('click', onBackdropClick);
 
   function toggleModal() {
-    refs.modal.classList.toggle('open');
+    refs.modal.classList.toggle('isopen');
   }
 
   function onBackdropClick(event) {
