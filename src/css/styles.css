@@ -13,7 +13,7 @@
 @import url('./header.css');
 /* Hero */
 /* About us */
-/* Catalog */
+@import url('./catalog.css');
 /* Advertisement */
 /* Sale */
 /* Reviews */
