@@ -40,12 +40,12 @@
     height: 100%;
     background-image: linear-gradient(rgba(12, 12, 12, 0.92),
             rgba(12, 12, 12, 0.92)),
-        url(../img/mobmenu/modal_mob.png);
+        url(../img/mobmenu/mobi_menu.jpg);
 
     @media (min-resolution: 192dpi) {
         background-image: linear-gradient(rgba(12, 12, 12, 0.92),
                 rgba(12, 12, 12, 0.92)),
-            url(../img/mobmenu/modal_mob@2x.png);
+            url(../img/mobmenu/mobi_menu@2x.jpg);
     }
 
     background-position: center;
@@ -63,12 +63,12 @@
         background-color: #0C0C0C;
         background-image: linear-gradient(rgba(12, 12, 12, 0.92),
                 rgba(12, 12, 12, 0.92)),
-            url(../img/mobmenu/modal_tab.png);
+            url(../img/mobmenu/tablet_menu.jpg);
 
         @media (min-resolution: 192dpi) {
             background-image: linear-gradient(rgba(12, 12, 12, 0.92),
                     rgba(12, 12, 12, 0.92)),
-                url(../img/mobmenu/modal_tab@2x.png);
+                url(../img/mobmenu/tablet_menu@2x.jpg);
         }
 
         background-position: center;
@@ -132,6 +132,8 @@
     padding-bottom: 8px;
 }
 
+/* ===animation for links=== */
+
 .mob-item::after {
     content: '';
     position: absolute;
@@ -168,6 +170,8 @@
     }
 }
 
+/* ===animation for links=== */
+
 .mob-soc-box {
     display: flex;
     gap: 10px;
@@ -189,13 +193,12 @@
     fill: #FBFBFB;
 }
 
-
+/* ===animation for icon=== */
 .mob-soc-link {
     display: inline-block;
     position: relative;
     transition-duration: .3S;
     transition-property: transform;
-
 
     &:before {
         pointer-events: none;
@@ -214,10 +217,8 @@
         transition-property: transform opacity;
     }
 
-
     &:hover {
         transform: translateY(-5px);
-
 
         &:before {
             opacity: 1;
@@ -227,4 +228,5 @@
 
 }
 
+/* ===animation for icon=== */
 /* ===mob-nav=== */
