@@ -1,0 +1,112 @@
+.sale-title {
+    margin-bottom: 24px;
+}
+
+.sale-img-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.sale-img-list {
+    display: flex;
+    gap: 5px;
+}
+
+.sale-img-item img {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;
+    padding: 12px 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+}
+
+.sale-big-img img {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    padding: 49px;
+    background-color: #f3f3f3;
+}
+
+.sale-info {
+    padding: 48px 28px;
+    background-color: #3350e9;
+    border-radius: 30px;
+}
+
+.sale-info-subtitle {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 10px;
+}
+
+.sale-info-subparagraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+    margin-bottom: 20px;
+}
+
+.sale-info-price {
+    display: flex;
+    gap: 9px;
+    margin-bottom: 28px;
+    /* align-items: center; */
+}
+
+.sale-info-price-first {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    border-radius: 8px;
+    padding: 8px 12px;
+    width: 68px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(251, 251, 251, 0.1);
+}
+
+.sale-info-price-second {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
+    padding: 9px 0;
+}
+
+.sale-info-paragraph {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+    margin-bottom: 28px;
+}
+
+.sale-info-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.sale-info-item {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 7px 11px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #fbfbfb;
+}
