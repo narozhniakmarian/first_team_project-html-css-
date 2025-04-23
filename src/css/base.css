@@ -41,6 +41,7 @@ main {
   flex-grow: 1;
 }
 
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -52,4 +53,32 @@ main {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+
+.section-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title {
+    font-size: 48px;
+    line-height: 0.92;
+  }
+}
+
+.main-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+@media screen and (min-width: 768px) {
+  .main-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
 }
