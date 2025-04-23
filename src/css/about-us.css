@@ -84,7 +84,7 @@
     color: rgba(12, 12, 12, 0.7);
 }
 
-.about-us-btn {
+.about-us-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.28;
@@ -96,7 +96,7 @@
     transition: background-color .25s cubic-bezier(.4, 0, .2, 1);
 }
 
-.about-us-btn:hover,
-.about-us-btn:focus {
+.about-us-link:hover,
+.about-us-link:focus {
     background-color: #1f3cd4;
 }
