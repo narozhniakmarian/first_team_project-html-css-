@@ -217,6 +217,14 @@
         justify-content: space-between;
     }
 
+    .logo-phone-wrap {
+        display: contents;
+    }
+    
+    .footer-soc-wrap { order: 1; }
+    .footer-text { order: 2; }
+    .footer-contact-wrap { order: 3; }
+
     .footer-text {
         margin: 0;
     }
