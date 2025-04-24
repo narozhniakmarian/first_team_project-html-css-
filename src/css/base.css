@@ -41,6 +41,19 @@ main {
   flex-grow: 1;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .section-title {
   font-weight: 600;
   font-size: 32px;
@@ -66,5 +79,45 @@ main {
   .main-text {
     font-size: 16px;
     line-height: 1.25;
+  }
+}
+
+section {
+  padding: 30px 0;
+}
+
+header {
+  padding-bottom: 30px;
+}
+
+footer {
+  padding-top: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  section {
+    padding: 40px 0;
+  }
+
+  header {
+    padding-bottom: 40px;
+  }
+
+  footer {
+    padding-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  section {
+    padding: 50px 0;
+  }
+
+  header {
+    padding-bottom: 50px;
+  }
+
+  footer {
+    padding-top: 50px;
   }
 }

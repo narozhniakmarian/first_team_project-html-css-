@@ -1,0 +1,52 @@
+.burger-btn {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+}
+
+.burge-icon {
+    stroke: #0C0C0C;
+}
+
+
+
+/* ===animation for links=== */
+
+.name_selector::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    transform: translateX(-50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #3350E9;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 450ms ease;
+}
+
+.name_selector::after {
+    opacity: 1;
+    animation: pulse 1s linear infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: translateX(-50%) scale(1);
+    }
+
+    25% {
+        transform: translateX(-50%) scale(1.1);
+    }
+
+    75% {
+        transform: translateX(-50%) scale(0.9);
+    }
+}
+
+/* ===animation for links=== */
