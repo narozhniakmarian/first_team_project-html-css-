@@ -17,6 +17,6 @@
 @import url('./advertisement.css');
 /* Sale */
 /* Reviews */
-/* Contact us */
+@import url('./contact-us.css');
 @import url('./footer.css');
 @import url('./modal.css');
