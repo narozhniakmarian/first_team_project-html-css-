@@ -11,12 +11,12 @@
 
 /* Sections style */
 @import url('./header.css');
-/* Hero */
+@import url('./hero.css');
 @import url('./about-us.css');
-/* Catalog */
+@import url('./catalog.css');
 @import url('./advertisement.css');
-/* Sale */
-/* Reviews */
+@import url('./reviews.css');
+@import url('./sale.css');
 @import url('./contact-us.css');
 @import url('./footer.css');
 @import url('./modal.css');
