@@ -49,7 +49,7 @@
 .sale-info-subparagraph {
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.28;
     letter-spacing: -0.02em;
     color: rgba(251, 251, 251, 0.5);
     margin-bottom: 20px;
@@ -69,9 +69,9 @@
     letter-spacing: -0.02em;
     color: #fbfbfb;
     border-radius: 8px;
-    padding: 8px 12px;
     width: 68px;
     display: flex;
+    align-items: center;
     justify-content: center;
     background-color: rgba(251, 251, 251, 0.1);
 }
@@ -79,7 +79,7 @@
 .sale-info-price-second {
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: -0.02em;
     text-decoration: line-through;
     color: rgba(251, 251, 251, 0.5);
@@ -109,4 +109,74 @@
     font-size: 12px;
     line-height: 1.33;
     color: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+    .sale-title {
+        margin-bottom: 40px;
+    }
+    .sale-img-box {
+        margin-bottom: 40px;
+        flex-direction: row;
+    }
+    .sale-img-list {
+        gap: 10px;
+        flex-direction: column;
+    }
+    .sale-img-item img {
+        padding: 15px 17px;
+        border-radius: 20px;
+    }
+    .sale-big-img img {
+        padding: 79px 111px;
+        border-radius: 50px;
+    }
+    .sale-info {
+        padding: 60px;
+        border-radius: 50px;
+    }
+    .sale-info-subtitle {
+        max-width: 436px;
+        font-size: 32px;
+        line-height: 1.125;
+    }
+    .sale-info-price {
+        margin-bottom: 30px;
+    }
+    .sale-info-price-first {
+        width: 78px;
+        font-size: 20px;
+        line-height: 1;
+    }
+    .sale-info-paragraph {
+        font-size: 16px;
+        line-height: 1.25;
+        margin-bottom: 40px;
+    }
+    .sale-info-list {
+        max-width: 398px;
+    }
+    .sale-info-item {
+    font-size: 14px;
+    line-height: 1.28;
+    } 
+}
+
+@media only screen and (min-width: 1280px) {
+    .sale-all-box {
+        display: flex;
+        gap: 40px;
+    }
+    .sale-img-box {
+        margin-bottom: 0;
+    }
+    .sale-big-img img {
+        padding: 79px 49px;
+    }
+    .sale-info-subtitle {
+        max-width: 389px;
+    }
+    .sale-info-paragraph {
+        max-width: 410px;
+    }
 }
