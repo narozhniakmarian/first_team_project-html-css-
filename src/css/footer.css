@@ -42,7 +42,38 @@
     padding: 8px;
     width: 34px;
     height: 34px;
+    position: relative;
+    transition-duration: .3S;
+    transition-property: transform;
+
+    &:before {
+        pointer-events: none;
+        position: absolute;
+        z-index: -1;
+        content: '';
+        top: 100%;
+        left: 5%;
+        height: 10px;
+        width: 90%;
+        opacity: 0;
+        background: radial-gradient(ellipse at center, rgba(255, 252, 252, 0.711) 0%,
+                rgba(207, 203, 203, 0.018) 80%);
+        border-radius: 90%;
+        transition-duration: .3S;
+        transition-property: transform opacity;
+    }
+
+    &:hover,
+    &:focus {
+        transform: translateY(-5px);
+
+        &:before {
+            opacity: 1;
+            transform: translateY(5px);
+        }
+    }
 }
+
 
 .footer-contact-wrap {
     display: flex;
@@ -57,6 +88,36 @@
     width: 152px;
     height: 44px;
     margin-bottom: 40px;
+    position: relative;
+    transition-duration: .3S;
+    transition-property: transform;
+    
+    &:before {
+        pointer-events: none;
+        position: absolute;
+        z-index: -1;
+        content: '';
+        top: 100%;
+        left: 5%;
+        height: 10px;
+        width: 90%;
+        opacity: 0;
+        background: radial-gradient(ellipse at center, rgba(255, 252, 252, 0.711) 0%,
+            rgba(207, 203, 203, 0.018) 80%);
+        border-radius: 90%;
+        transition-duration: .3S;
+        transition-property: transform opacity;
+    }
+    
+    &:hover,
+    &:focus {
+        transform: translateY(-5px);
+    
+        &:before {
+            opacity: 1;
+            transform: translateY(5px);
+        }
+    }
 }
 
 .footer-text {
@@ -157,14 +218,11 @@
     }
 
     .footer-contact-wrap {
-        margin: 0;
-    }
-
-    .footer-contact-wrap {
         width: 160px;
         height: 48px;
         font-size: 14px;
         line-height: 1.29;
+        margin: 0;
     }
 
     .footer-text {
@@ -212,6 +270,10 @@
     }
 
     .footer-content {
+        margin-bottom: 126px;
+    }
+
+    .footer-content {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -231,5 +293,9 @@
 
     .logo-phone-wrap {
         justify-content: space-between;
+    }
+
+    .footer-nav-list {
+        gap: 40px;
     }
 }
