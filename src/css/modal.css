@@ -137,14 +137,9 @@
     align-items: center;
     justify-content: center;
     flex-grow: 1;
-    gap: 24px;
+    gap: 16px;
 }
 
-@media screen and (min-width: 768px) {
-    .mob-list {
-        gap: 32px;
-    }
-}
 
 .mob-item {
     position: relative;
@@ -155,6 +150,18 @@
     text-align: center;
     color: #fbfbfb;
     padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+    .mob-list {
+        gap: 18px;
+    }
+
+    .mob-item {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
 }
 
 /* ===animation for links=== */
