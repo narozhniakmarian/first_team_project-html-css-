@@ -35,12 +35,12 @@
   }
 }
 
-.section-title {
+.about-us .section-title {
   margin-bottom: 28px;
 }
 
 @media only screen and (min-width: 768px) {
-  .section-title {
+  .about-us .section-title {
     margin-bottom: 40px;
   }
 }
