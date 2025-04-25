@@ -77,15 +77,7 @@
   padding: 15px 38px;
   background-color: #3350e9;
   border-radius: 16px;
-    display: inline-block;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.about-us-link:hover,
-.about-us-link:focus {
-  background-color: #1f3cd4;
-    transform: scale(1.1);
+  display: inline-block;
 }
 
 .about-us-picture {
