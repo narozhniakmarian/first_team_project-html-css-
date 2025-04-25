@@ -87,3 +87,8 @@
   background-color: #1f3cd4;
     transform: scale(1.1);
 }
+
+.about-us-picture {
+  border-radius: 50px;
+  background: rgba(12, 12, 12, 0.2);
+}
