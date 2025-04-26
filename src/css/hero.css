@@ -71,13 +71,12 @@ font-weight: 500;
 .people-list:not(:first-child) {
     margin-left: -12px;
 }
-button {
-    background: none;
-    border: none;
-    margin-top: auto;
-}
+
 .scroll-down {
     text-decoration: underline;
+    position: absolute;
+    right: 0;
+    bottom: 0;
     
     
 }
@@ -89,6 +88,8 @@ button {
     display: flex;
     justify-content: space-between;
     margin-bottom: 28px;
+    position: relative;
+
 }
 
 
@@ -113,10 +114,7 @@ button {
         width: 56px;
         height: 56px;
     }
-        button {
-            margin-right: 0;
-            
-        }
+       
         .people-list:not(:first-child) {
             margin-left: -16px;
         }
