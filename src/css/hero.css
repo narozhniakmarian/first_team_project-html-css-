@@ -50,11 +50,11 @@
 }
 
 .hero-face {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    border-width: 2px;
-        border: #fbfbfb;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border-width: 2px;
+  border: #fbfbfb;
 }
 
 .hero-face img {
@@ -69,13 +69,12 @@
   margin-left: -12px;
 }
 
-
 .scroll-down {
-    text-decoration: underline;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    
+  text-decoration: underline;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
 
 button {
   background: none;
@@ -87,10 +86,10 @@ button {
   color: #3350e9;
 }
 .hero-people {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 28px;
-    position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+  position: relative;
 }
 
 @media screen and (min-width: 768px) {
@@ -121,6 +120,40 @@ button {
     font-weight: 600;
     font-size: 70px;
     line-height: 0.857;
+    padding-top: 80px;
+  }
+  .hero-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-title,
+  .hero-text {
+    max-width: 557px;
+  }
+  .hero-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero-people {
+    flex-direction: column;
+    margin-bottom: 40px;
+    margin-top: 80px;
+  }
+  .hero-face {
+    width: 56px;
+    height: 56px;
+  }
+
+  .people-list:not(:first-child) {
+    margin-left: -16px;
+  }
+  .hero-title {
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 0.857;
 
     padding-top: 80px;
   }
@@ -128,49 +161,9 @@ button {
     font-size: 16px;
     line-height: 1.25;
 
-@media screen and (min-width: 768px) {
-    .hero-title, .hero-text{
-        max-width: 557px;
-    }
-    .hero-container {
-        display: flex;
-        justify-content: space-between;
-    }
-        .hero-people {
-            
-            
-            flex-direction: column;
-            margin-bottom: 40px;
-            margin-top: 80px;
-        }
-    .hero-face{
-        width: 56px;
-        height: 56px;
-    }
-       
-        .people-list:not(:first-child) {
-            margin-left: -16px;
-        }
-                .hero-title {
-        
-                    font-weight: 600;
-                    font-size: 70px;
-                    line-height: 0.857;
-        
-                    padding-top: 80px;
-                    
-        
-        
-                }
-                                .hero-text {
-                                    
-                                    
-                                    font-size: 16px;
-                                    line-height: 1.25;
-                                    
-                                    color: rgba(12, 12, 12, 0.7);
-                                    padding-bottom: 40px;
-                                }
+    color: rgba(12, 12, 12, 0.7);
+    padding-bottom: 40px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
