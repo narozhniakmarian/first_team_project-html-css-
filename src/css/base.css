@@ -143,3 +143,14 @@ footer {
   color: #0c0c0c;
   transform: scale(1.1);
 }
+
+
+
+/* ====scroll updata==== */
+html,
+body {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ====scroll updata==== */
