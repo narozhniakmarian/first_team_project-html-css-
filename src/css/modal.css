@@ -41,7 +41,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 0;
+    padding: 40px 20px;
 }
 
 .mob-nav-background {
@@ -88,7 +88,7 @@
     }
 
     .mob-container {
-        padding: 50px 0;
+        padding: 50px 30px;
     }
 }
 
@@ -149,8 +149,7 @@
     line-height: 129%;
     text-align: center;
     color: #fbfbfb;
-    padding-bottom: 8px;
-    padding-top: 8px;
+    padding: 8px 42px;
 }
 
 @media screen and (min-width: 768px) {
@@ -159,8 +158,7 @@
     }
 
     .mob-item {
-        padding-top: 12px;
-        padding-bottom: 12px;
+        padding: 12px 86px;
     }
 }
 
