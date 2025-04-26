@@ -34,6 +34,7 @@
     opacity: 0.8;
 }
 
+
 .burger-btn:hover .kanapka,
 .burger-btn:focus .kanapka {
     opacity: 1;
