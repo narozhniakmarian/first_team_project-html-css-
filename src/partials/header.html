@@ -1,32 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WatchCharm</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <header class="header">
-    <div class="logo">watchcharm</div>
-    <nav class="nav">
-      <ul class="nav-list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Catalog</a></li>
-        <li><a href="#">Sale</a></li>
-        <li><a href="#">Reviews</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </nav>
-    <div class="socials">
-      <use href="image/icons.svg"><img src="facebook-icon.svg" alt="facebook-icon"></use>
-      <use href="image/icons.svg"><img src="instagram-icon.svg" alt="instagram-icon"></use>
-      <use href="image/icons.svg"><img src="youtube-icon.svg" alt="youtube-icon"></use>
+<header class="header">
+  <div class="container head-container">
+    <div class="mob-head">
+      <div class="logo-box">
+        <a href="/index.html" class="logo-head">watchcharm</a>
+      </div>
+      <div class="birger-box">
+        <button type="button" class="burger-btn" data-open-mobnav>
+          <svg class="kanapka" width="28" height="14">
+            <use href="../img/sprite.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
     </div>
-  </header>
-</body>
-
-</html>
+    <div class="nav-container">
+      <div class="logo-box">
+        <a href="/index.html" class="logo-head">watchcharm</a>
+      </div>
+      <nav aria-label="header-navigation" class="top-nav">
+        <ul class="top-nav-list">
+          <li class="top-nav-item"><a href="#hero">Home</a></li>
+          <li class="top-nav-item"><a href="#about">About Us</a></li>
+          <li class="top-nav-item"><a href="#catalog">Catalog</a></li>
+          <li class="top-nav-item"><a href="#sale">Sale</a></li>
+          <li class="top-nav-item"><a href="#reviews">Reviews</a></li>
+          <li class="top-nav-item"><a href="#reviews">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="head-soc-box">
+        <a
+          href=" https://www.facebook.com/goITclub/"
+          target="_blank"
+          class="soc-link"
+          ><svg class="top-icon" width="20" height="20">
+            <use href="/img/sprite.svg#icon-Facebook"></use></svg
+        ></a>
+        <a
+          href="https://www.instagram.com/goitclub/"
+          target="_blank"
+          class="soc-link"
+          ><svg class="top-icon" width="20" height="20">
+            <use href="/img/sprite.svg#icon-instagram"></use></svg
+        ></a>
+        <a
+          href="https://www.youtube.com/c/GoIT"
+          target="_blank"
+          class="soc-link"
+          ><svg class="top-icon" width="20" height="20">
+            <use href="/img/sprite.svg#icon-YouTube"></use></svg
+        ></a>
+      </div>
+    </div>
+  </div>
+</header>
