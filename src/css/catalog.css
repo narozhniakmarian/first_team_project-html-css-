@@ -100,14 +100,15 @@ font-weight: 400;
                 align-items: flex-start;
                 justify-content: center;
                 flex-direction: row;
-                gap: 16px;
-                margin-bottom: 16px;
+                column-gap: 16px;
+                row-gap: 32px;
         }
     .catalog-item {
-            width: 344px;
+            width: calc((100% - 16px) / 2);
             height: 414px;
             padding-left: 32px;
             padding-right: 32px;
+            margin-bottom: 0;
     }
         .image-box {
             width: 280px;
@@ -139,12 +140,13 @@ font-weight: 400;
     .catalog-list {
         width: 1150px;
         height: 860px;
-        gap: 23px;
+        column-gap: 23px;
+        row-gap: 32px;
     }
     .catalog-item {
-        width: 368px;
+        width: calc((100% - 46px) / 3);
         height: 414px;
-        margin-bottom: 9px;
+        margin-bottom: 0;
         transition: box-shadow 0.3s ease;
     }
     .catalog-item:hover{

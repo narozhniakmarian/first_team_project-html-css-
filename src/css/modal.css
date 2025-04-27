@@ -149,6 +149,11 @@
     line-height: 129%;
     text-align: center;
     color: #fbfbfb;
+
+}
+
+.mob-item a {
+    display: block;
     padding: 8px 42px;
 }
 
@@ -157,7 +162,7 @@
         gap: 18px;
     }
 
-    .mob-item {
+    .mob-item a {
         padding: 12px 86px;
     }
 }
@@ -203,7 +208,7 @@
 
 /* ====animation for links==== */
 
-.mob-soc-box {
+.mob-soc-list {
     display: flex;
     gap: 10px;
 }

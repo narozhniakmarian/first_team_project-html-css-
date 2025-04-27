@@ -27,11 +27,12 @@
 }
 
 .hero-face {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  border-width: 2px;
-  border: #fbfbfb;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border-width: 2px;
+        border: #fbfbfb;
+        object-fit: cover;
 }
 
 .hero-face img {
@@ -144,28 +145,32 @@ button {
 }
 
 @media screen and (min-width: 1158px) {
-  .hero-title,
-  .hero-text {
-    max-width: 597px;
-  }
-  .hero-face {
-    width: 60px;
-    height: 60px;
-  }
-  .people-list:not(:first-child) {
-    margin-left: -17px;
-  }
-  .hero-title {
-    font-weight: 600;
-    font-size: 72px;
-    line-height: 0.875;
-
-    padding-top: 80px;
-  }
-  .scroll-down:hover,
-  .scroll-down:focus {
-    color: #3350e9;
-  }
+    .hero-title, .hero-text{
+            max-width: 597px;
+        }
+    .hero-face {
+        width: 60px;
+        height: 60px;
+    }
+        .people-list:not(:first-child) {
+            margin-left: -17px;
+        }
+                .hero-title {
+                    
+                    
+                    font-size: 72px;
+                    }
+                    
+                    
+                    
+        
+        
+                
+                                .scroll-down:hover, .scroll-down:focus {
+                                    color: #3350e9;
+                
+                                }
+                
 }
 .watch-hero {
   background: rgba(12, 12, 12, 0.2), url('path_to_image');
