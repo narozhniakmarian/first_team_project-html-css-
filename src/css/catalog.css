@@ -145,16 +145,12 @@ font-weight: 400;
     }
     .catalog-item {
         width: calc((100% - 46px) / 3);
-        height: 414px;
-        margin-bottom: 0;
         transition: box-shadow 0.3s ease;
     }
-    .catalog-item:hover{
-        box-shadow: 0 4px 5px rgba(25, 25, 25, 0.3);
-        };
-    .catalog-item:focus{
-        box-shadow: 0 4px 5px rgba(25, 25, 25, 0.3);
-    }
+        .catalog-item:hover,
+        .catalog-item:focus {
+            box-shadow: 0 4px 5px rgba(25, 25, 25, 0.3);
+        }
     .catalog-card{
         width: 304px;
             height: 366px;
