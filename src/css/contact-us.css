@@ -30,7 +30,7 @@
   align-items: start;
 }
 
-.form-contact-us > *:nth-child(8) {
+.form-contact-us>*:nth-child(8) {
   margin-bottom: 28px;
 }
 
@@ -108,7 +108,7 @@
     line-height: 1.25;
   }
 
-  .form-contact-us > *:nth-child(8) {
+  .form-contact-us>*:nth-child(8) {
     margin-bottom: 32px;
   }
 
@@ -145,3 +145,14 @@
     width: 530px;
   }
 }
+
+/* ====if input active contact-us box-shadow==== */
+.input-box {
+  transition: box-shadow 0.3s ease;
+}
+
+.input-box:focus-within {
+  box-shadow: 0 4px 5px rgba(25, 25, 25, 0.3);
+}
+
+/* ====if input active contact-us box-shadow==== */
