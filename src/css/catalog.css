@@ -104,7 +104,7 @@ font-weight: 400;
                 row-gap: 32px;
         }
     .catalog-item {
-            width: 344px;
+            width: calc((100% - 16px) / 2);
             height: 414px;
             padding-left: 32px;
             padding-right: 32px;
@@ -144,7 +144,7 @@ font-weight: 400;
         row-gap: 32px;
     }
     .catalog-item {
-        width: 368px;
+        width: calc((100% - 46px) / 3);
         height: 414px;
         margin-bottom: 0;
         transition: box-shadow 0.3s ease;
