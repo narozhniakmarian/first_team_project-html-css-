@@ -1,33 +1,29 @@
-
 .hero-title {
-font-family: "Gilroy", sans-serif;
-font-weight: 600;
-    font-size: 40px;
-    line-height: 0.95;
-        letter-spacing: -0.02em;
-        color: #0c0c0c;
-        padding-top: 60px;
-        padding-bottom: 20px;
-       
-
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 .hero-collection {
-    color: #3350e9;
+  color: #3350e9;
 }
 .hero-text {
-font-family: "Gilroy", sans-serif;
-font-weight: 500;
-    font-size: 14px;
-    line-height: 1.28571;
-        letter-spacing: -0.02em;
-        color: rgba(12, 12, 12, 0.7);
-        padding-bottom: 28px;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  padding-bottom: 28px;
 }
 
 .hero-people-list {
-    display: flex;
-    align-items: center;
-    
+  display: flex;
+  align-items: center;
 }
 
 .hero-face {
@@ -40,83 +36,112 @@ font-weight: 500;
 }
 
 .hero-face img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .people-list {
-    width: auto;
+  width: auto;
 }
 .people-list:not(:first-child) {
-    margin-left: -12px;
+  margin-left: -12px;
 }
 
 .scroll-down {
-    text-decoration: underline;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    
-    
+  text-decoration: underline;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
-.scroll-down:active {
-    color: #3350e9;
 
+button {
+  background: none;
+  border: none;
+  margin-top: auto;
+}
+
+.scroll-down:active {
+  color: #3350e9;
 }
 .hero-people {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 28px;
-    position: relative;
-
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+  position: relative;
 }
 
-
-
+@media screen and (min-width: 768px) {
+  .hero-title,
+  .hero-text {
+    max-width: 557px;
+  }
+  .hero-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero-people {
+    flex-direction: column;
+    margin-bottom: 40px;
+    margin-top: 80px;
+  }
+  .hero-face {
+    width: 56px;
+    height: 56px;
+  }
+  button {
+    margin-right: 0;
+  }
+  .people-list:not(:first-child) {
+    margin-left: -16px;
+  }
+  .hero-title {
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 0.857;
+    padding-top: 80px;
+  }
+  .hero-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
 
 @media screen and (min-width: 768px) {
-    .hero-title, .hero-text{
-        max-width: 557px;
-    }
-    .hero-container {
-        display: flex;
-        justify-content: space-between;
-    }
-        .hero-people {
-            
-            
-            flex-direction: column;
-            margin-bottom: 40px;
-            margin-top: 80px;
-        }
-    .hero-face{
-        width: 56px;
-        height: 56px;
-    }
-       
-        .people-list:not(:first-child) {
-            margin-left: -16px;
-        }
-                .hero-title {
-        
-                    font-weight: 600;
-                    font-size: 70px;
-                    line-height: 0.857;
-        
-                    padding-top: 80px;
-                    
-        
-        
-                }
-                                .hero-text {
-                                    
-                                    
-                                    font-size: 16px;
-                                    line-height: 1.25;
-                                    
-                                    color: rgba(12, 12, 12, 0.7);
-                                    padding-bottom: 40px;
-                                }
+  .hero-title,
+  .hero-text {
+    max-width: 557px;
+  }
+  .hero-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero-people {
+    flex-direction: column;
+    margin-bottom: 40px;
+    margin-top: 80px;
+  }
+  .hero-face {
+    width: 56px;
+    height: 56px;
+  }
+
+  .people-list:not(:first-child) {
+    margin-left: -16px;
+  }
+  .hero-title {
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 0.857;
+
+    padding-top: 80px;
+  }
+  .hero-text {
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: rgba(12, 12, 12, 0.7);
+    padding-bottom: 40px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -148,6 +173,5 @@ font-weight: 500;
                 
 }
 .watch-hero {
-    background: rgba(12, 12, 12, 0.2), url("path_to_image");
-
+  background: rgba(12, 12, 12, 0.2), url('path_to_image');
 }
