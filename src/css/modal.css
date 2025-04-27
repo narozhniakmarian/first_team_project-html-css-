@@ -208,7 +208,7 @@
 
 /* ====animation for links==== */
 
-.mob-soc-box {
+.mob-soc-list {
     display: flex;
     gap: 10px;
 }
